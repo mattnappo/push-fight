@@ -23,7 +23,7 @@ public:
     piece_color get_color();
     piece_type get_type();
 
-    bool is_anchored();
+    bool get_is_anchored();
 
 private:
     int x;
@@ -42,7 +42,7 @@ public:
     int get_x();
     int get_y();
 
-    bool is_vacant();
+    bool get_is_vacant();
 
     Piece *get_piece();
     int set_piece(Piece *piece);

@@ -1,7 +1,6 @@
 #include "game.h"
 
-pf::Game::Game() {
-    window = Window();
+pf::Game::Game() : window(Window()) {
     setup_board();
 }
 

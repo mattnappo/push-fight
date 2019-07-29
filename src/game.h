@@ -25,7 +25,8 @@ public:
     int play();
 
 private:
-    int setup();
+    int setup_window();
+    int setup_board();
 };
 
 }

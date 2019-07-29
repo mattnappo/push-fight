@@ -58,7 +58,7 @@ private:
 
 class Board {
 public:
-    Square board[8][4];
+    Square *board[8][4];
 
     Board();
     ~Board();

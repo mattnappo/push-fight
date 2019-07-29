@@ -1,6 +1,9 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include <iostream>
+#include <SFML/Graphics.hpp>
+
 #include "board.h"
 
 namespace pf {
@@ -10,8 +13,10 @@ public:
     Window();
     ~Window();
 
+    sf::RenderWindow window;
+
 private:
-    int init_window();
+    int height = 305, width = 533;
 };
 
 class Game {
@@ -25,7 +30,6 @@ public:
     int play();
 
 private:
-    int setup_window();
     int setup_board();
 };
 

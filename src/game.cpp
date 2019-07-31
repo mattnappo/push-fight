@@ -1,6 +1,6 @@
 #include "game.h"
 
-pf::Game::Game() : window(Window()) {
+pf::Game::Game() : window() {
     setup_board();
 }
 
@@ -8,6 +8,7 @@ pf::Game::~Game() { }
 
 int pf::Game::setup_board() {
 
+    return 0;
 }
 
 int pf::Game::play() {
